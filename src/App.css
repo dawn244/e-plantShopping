@@ -1,0 +1,33 @@
+.about-us-container {
+  background-image: url('https://images.unsplash.com/photo-1463936575829-25148e1db1b8');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.about-us-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.get-started-button {
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.get-started-button:hover {
+  background-color: #45a049;
+}
